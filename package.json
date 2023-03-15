@@ -22,7 +22,7 @@
     "@codemirror/language": "6.6.0",
     "@codemirror/state": "6.2.0",
     "@codemirror/view": "6.9.1",
-    "@crossbell/connect-kit": "0.0.41",
+    "@crossbell/connect-kit": "0.0.43",
     "@crossbell/contract": "0.0.41",
     "@crossbell/indexer": "0.0.41",
     "@crossbell/notification": "0.0.41",

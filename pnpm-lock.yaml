@@ -8,7 +8,7 @@ specifiers:
   '@codemirror/view': 6.9.1
   '@crossbell/connect-kit': 0.0.41
   '@crossbell/contract': 0.0.41
-  '@crossbell/indexer': 0.0.41
+  '@crossbell/indexer': 0.0.43
   '@crossbell/notification': 0.0.41
   '@crossbell/ui': 0.0.41
   '@crossbell/util-hooks': 0.0.41
@@ -142,7 +142,7 @@ dependencies:
   '@codemirror/view': 6.9.1
   '@crossbell/connect-kit': 0.0.41_qeryhxsfugywljglnvhgzaq754
   '@crossbell/contract': 0.0.41_mesmmewwopkmkl7hvhwkhlmhve
-  '@crossbell/indexer': 0.0.41_mesmmewwopkmkl7hvhwkhlmhve
+  '@crossbell/indexer': 0.0.43_mesmmewwopkmkl7hvhwkhlmhve
   '@crossbell/notification': 0.0.41_ogut4lnwvlvmg3jumn6qr7hh6u
   '@crossbell/ui': 0.0.41_we4vucwqp5ltf3fmtiio25khmm
   '@crossbell/util-hooks': 0.0.41_biqbaboplfbrettd7655fr4n2y
@@ -1731,6 +1731,27 @@ packages:
       dayjs: 1.11.7
       lodash.compact: 3.0.1
       lru-cache: 7.18.1
+      wagmi: 0.11.7_osprwltll6etshz2owvseumghu
+    transitivePeerDependencies:
+      - bufferutil
+      - react
+      - react-dom
+      - react-native
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /@crossbell/indexer/0.0.43_mesmmewwopkmkl7hvhwkhlmhve:
+    resolution: {integrity: sha512-qvaVWn8wOsomLSzNvzE6pe5PWWa7AvJvjChIgmUZhfMHETdoXNxcOFGIKcTvqhiXNUDhdD0hbmUbdBvXZ2SkRw==}
+    peerDependencies:
+      ethers: ^5
+      wagmi: ^0.11
+    dependencies:
+      '@tanstack/react-query': 4.24.10_biqbaboplfbrettd7655fr4n2y
+      crossbell.js: 0.16.15
+      dayjs: 1.11.7
+      lodash.compact: 3.0.1
+      lru-cache: 7.18.3
       wagmi: 0.11.7_osprwltll6etshz2owvseumghu
     transitivePeerDependencies:
       - bufferutil
@@ -9304,6 +9325,11 @@ packages:
 
   /lru-cache/7.18.1:
     resolution: {integrity: sha512-8/HcIENyQnfUTCDizRu9rrDyG6XG/21M4X7/YEGZeD76ZJilFPAUVb/2zysFf7VVO1LEjCDFyHp8pMMvozIrvg==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /lru-cache/7.18.3:
+    resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
     dev: false
 
